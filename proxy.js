@@ -8,7 +8,7 @@ process.argv.forEach(function(val, index, array) {
     }
 });
 var remoteServer = 'http://' + (process.env['-to'] || 'www.google.com');
-var proxyServer = +process.env['-from'] || 1987;
+var proxyServer = +process.env['-from'] || 8000;
 
 http.createServer(function (req, resp) {
 	req.pipe(request(remoteServer + req.url)).pipe(resp);

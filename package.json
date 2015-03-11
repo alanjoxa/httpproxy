@@ -1,0 +1,7 @@
+{
+  "name": "httpproxy",
+  "version": "0.1.1",
+  "dependencies": {
+    "request" : "^2.53.0"
+  }
+}
