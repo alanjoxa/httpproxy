@@ -1,5 +1,5 @@
 # httpproxy
-This simple HTTP proxy server written in NodeJS. 
+This is an HTTP proxy server written in NodeJS. 
 
 
 By default the server proxies from localhost:8000 to www.google.com
